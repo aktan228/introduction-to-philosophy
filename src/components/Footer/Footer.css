@@ -1,0 +1,19 @@
+.footer_copyright {
+    color: white;
+    padding: 20px;
+    border: 2px solid rgb(255, 207, 80);
+    display: flex;
+    justify-content: center;
+}
+
+.footer_no_copyright {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,42 @@
+.orpheus_img {
+    width: 800px;
+    height: 450px;
+    background: url(/src/img/FULL.png);
+    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* position: static; */
+}
+
+.orpheus_definition {
+    width: 552px;
+}
+
+.section_orpheus{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+.orpheus_name{
+    font-size: 50px;
+    padding: 10px 0;
+}
+.orpheus_definition{
+    line-height: 2.5rem;
+    font-size: larger;
+}
+
+
+
+
+
+
+/* platon */
+.platons_school_img{
+    width: 100px;
+    height: 100px;
+    background: url(/src/img/platon_body.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

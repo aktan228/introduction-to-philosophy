@@ -1,0 +1,30 @@
+
+.header_logo{
+    background: url(/src/img/Group\ 1.svg);
+    width: 40px;
+    height: 44px;   
+}
+
+.header_title{
+    font-weight: 700;
+    font-size: larger;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+    padding: 50px 0;
+}
+.header_logo_father{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+}
+
