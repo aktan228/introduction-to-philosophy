@@ -31,9 +31,10 @@
 
 
 /* slider */
-.slider_text{
-line-height: 1.5rem;
+.slider_text {
+    line-height: 1.5rem;
 }
+
 .slider_title {
     font-size: 50px;
     width: 100%;
@@ -86,12 +87,15 @@ line-height: 1.5rem;
     display: flex;
     justify-content: space-between;
 }
-.slick-slider{
+
+.slick-slider {
     padding: 60px 0;
 }
+
 .slick-prev {
     left: -50px;
 }
+
 .jcsb {
     display: flex;
     justify-content: space-between;
@@ -103,15 +107,18 @@ line-height: 1.5rem;
     width: 50%;
     margin-left: 50px;
 }
-.slider_button{
+
+.slider_button {
     padding: 20px 30px;
-    border: rgb(255, 229, 161) 1px  solid;
-    border-radius: 5px; 
+    border: rgb(255, 229, 161) 1px solid;
+    border-radius: 5px;
     font-size: larger;
     font-weight: 600;
     margin-top: 20px;
     border: linear-gradient(90deg, rgba(255, 229, 161, 1) 0%, rgba(191, 132, 26, 1) 52%, rgba(255, 205, 116, 1) 100%);
+    transition: background-color 0.3s ease;
 }
+
 /* platon */
 .platons_school_img {
     width: 423px;
@@ -135,12 +142,14 @@ line-height: 1.5rem;
     justify-content: space-between;
 
 }
-.platon_school{
-    background-color: #0e0e0e; 
+
+.platon_school {
+    background-color: #0e0e0e;
 
 }
+
 .platon_button {
-    border:  solid 6px black; 
+    border: solid 6px black;
     padding: 15px 30px;
     background: rgb(255, 229, 161);
     background: linear-gradient(90deg, rgba(255, 229, 161, 1) 0%, rgba(191, 132, 26, 1) 52%, rgba(255, 205, 116, 1) 100%);
@@ -168,7 +177,8 @@ line-height: 1.5rem;
     justify-content: center;
     padding: 50px 0 0 0;
 }
-.platon_main{
+
+.platon_main {
     background: url(/src/img/platon_body.png);
     width: 423px;
     height: 272px;
@@ -176,13 +186,33 @@ line-height: 1.5rem;
     background-size: contain;
 }
 
-.stoic_school{
+.stoic_school {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
     /* background-color: white; */
     /* width: 1000%; */
 }
-Link{
+
+Link {
     text-decoration: none;
-  }
+}
+
+.chil_box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+/* .slider_button:hover {
+    background: linear-gradient(90deg, rgba(255, 229, 161, 1) 0%, rgba(191, 132, 26, 1) 52%, rgba(255, 205, 116, 1) 100%);
+    color: white;
+}
+.slider_button p:hover{
+    color: white;
+} */
+/* .platon_button:hover{
+    background: ;
+} */

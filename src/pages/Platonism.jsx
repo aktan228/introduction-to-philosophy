@@ -39,16 +39,21 @@ const Platonism = () => {
         <div className="main_quotes">
           <h1 className="quote_title gold greece">Key Quotes from Plato:</h1>
           <ul className='adw'>
+            <div className="quote_box">
             <h1 className='quote_name gold greece'>On Knowledge</h1>
-            <li className="quote italic">“Knowledge which is acquired under compulsion obtains no hold on the mind.”</li>
+            <li className="quote1 italic">“Knowledge which is acquired under compulsion obtains no hold on the mind.”</li></div>
+            <div className="quote_box">
             <h1 className='quote_name nm1 gold greece'>On Justice</h1>
-            <li className="quote italic">“Justice means minding your own business and not meddling with other men’s concerns.”</li>
+            <li className="quote1 italic">“Justice means minding your own business and not meddling with other men’s concerns.”</li></div>
+            <div className="quote_box">
             <h1 className='quote_name gold greece'>On Philosophy</h1>
-            <li className="quote italic">“Philosophy begins in wonder.”</li>
+            <li className="quote1 italic">“Philosophy begins in wonder.”</li></div>
+            <div className="quote_box">
             <h1 className='quote_name nm1 gold greece'>On Education</h1>
-            <li className="quote italic">“The direction in which education starts a man will determine his future life.”</li>
+            <li className="quote1 italic">“The direction in which education starts a man will determine his future life.”</li></div>
+            {/* <div className="quote_box">
             <h1 className='quote_name gold greece'>On Virtue</h1>
-            <li className="quote italic">“The measure of a man is what he does with power.”</li>
+            <li className="quote italic">“The measure of a man is what he does with power.”</li></div> */}
           </ul>
         </div>
       </main>

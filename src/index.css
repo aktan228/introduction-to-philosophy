@@ -47,48 +47,104 @@ code {
 section {
   padding: 20px 0;
 }
-.link{
+
+.link {
   color: white;
   text-decoration: none;
 }
-.link1{
+
+.link1 {
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
-.italic{
+
+.italic {
   font-style: italic;
 }
+
 /* p:hover{
   color: rgb(255, 207, 80);
   
 } */
- .quote_img1{
+.quote_img1 {
   background: url(/src/img/1-removebg-preview.png);
- }
- .quote{
-  -webkit-box-shadow: 2px 2px 121px 42px rgba(0,0,0,0.71);
--moz-box-shadow: 2px 2px 121px 42px rgba(0,0,0,0.71);
-box-shadow: 2px 2px 121px 42px rgba(0,0,0,0.71);
-  width: 300px;
+}
+
+.quote {
+  -webkit-box-shadow: 2px 2px 121px 42px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 2px 2px 121px 42px rgba(0, 0, 0, 0.71);
+  box-shadow: 2px 2px 121px 42px rgba(0, 0, 0, 0.71);
+  width: 300px; 
   height: 300px;
   background-size: contain;
   background-repeat: no-repeat;
- }
- .quote_text{
+}
+
+.quote_text {
   font-style: italic
- }
- .main_quotes{
+}
+
+.main_quotes {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
   flex-direction: column;
-   align-items: center;
+  align-items: center;
 }
 
-.main_quotes1{
- display: flex;
+.main_quotes1 {
+  display: flex;
 
- 
+
   align-items: center;
   gap: 50px;
+}
+
+.chil_gau {
+  width: 50%;
+  height: 500px;
+  background: url(https://kz.kursiv.media/wp-content/uploads/2024/11/37-25-2-1280x960.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.epicur_text_def {
+  margin-bottom: 50px;
+}
+
+.epicur_box li {
+  margin-bottom: 20px;
+
+}
+
+.epicur_main {
+  background: url(https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_6604795499791d37d399ace9_6605824b276cdf0c03235834/scale_1200);
+  width: 423px;
+  height: 479px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* pa */
+}
+.epicur_school {
+  display: flex
+;
+  justify-content: space-between;
+  background-color: #000000;
+}
+.history_img_e{
+  background: url(/src/img/epicurrr.png);
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.epic_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 360px;
 }

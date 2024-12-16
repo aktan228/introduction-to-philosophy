@@ -1,7 +1,7 @@
 import React from 'react'
 import './Main.css'
-import { Link  } from 'react-router-dom'
-const Platon = (props, className ) => {
+import { Link } from 'react-router-dom'
+const Platon = (props, className) => {
     // const styles ={
     //     // backgroundImg: `url(${imageUrl})`,
     //     width: `423px`,
@@ -18,7 +18,7 @@ const Platon = (props, className ) => {
                 </h1>
                 <p className='platon_text_def'><span className='greece gold'>{props.scholl_name}</span>{props.definition}</p>
                 <div className="platon_button_father">
-                    <button className='platon_button'><Link className='link1' to={"/Platonism"}>MORE</Link></button>
+                    <Link className='link1' to={"/Platonism"}> <button className='platon_button'>MORE</button></Link>
                 </div>
             </div>
             <div className="platon_main"></div>

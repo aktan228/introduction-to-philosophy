@@ -19,6 +19,13 @@ const Main = () => {
                 <Stoic name_phil="Epicureanism" definition="Epicurus' school, known as The Garden, taught that the purpose of life is to attain happiness through pleasure, simplicity, and freedom from fear, especially fear of the gods and death."></Stoic>
                 <Platon name_phil="Stoicism" definition="Zeno's Stoicism emphasized living in harmony with nature, cultivating virtue, and maintaining emotional resilience by accepting life’s events as they come."></Platon> */}
                 <GreekStatuePack></GreekStatuePack>
+                <div className="chil_box">
+                    <div className="chil_gau">
+                        <h3>
+                            Когда у тебя везде горят дедлайны, но ты просто чиловый парень который читает книжки про философию и говорит мораль другим с умным видом
+                        </h3>
+                    </div>
+                </div>
             </div>
         </>
     )

@@ -15,3 +15,13 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
+const currentPage = window.location.pathname;
+const menuItems = document.querySelectorAll(".nav link");
+
+menuItems.forEach(item => {
+  if (item.getAttribute("href") === currentPage) {
+    item.parentElement.classList.add("active"); // Добавляем класс 'active' к li
+  }
+});
