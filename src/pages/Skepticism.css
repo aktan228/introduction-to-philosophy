@@ -1,0 +1,22 @@
+.skep_main{
+    background: url(https://miro.medium.com/v2/resize:fit:1400/0*peA4xALaBbmSIqF0);
+    width: 272px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    -webkit-box-shadow: 2px 2px 54px 0px rgba(0,0,0,0.71);
+-moz-box-shadow: 2px 2px 54px 0px rgba(0,0,0,0.71);
+box-shadow: 2px 2px 54px 0px rgba(127, 127, 127, 0.71);
+border-radius: 5px;
+}
+
+.skepcisim_img{
+    background: url(https://files.oaiusercontent.com/file-K8vWUhB7Cym2FC82KooP1z?se=2024-12-15T18%3A45%3A25Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3De78506e0-e426-442d-af70-d43d6bc7bae1.webp&sig=vM3NC0DzhVPngzY1sIJNw%2BbpVfYTuSkqsi0dQk56zTk%3D);
+    height: 300px;
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.history1{
+    padding: 15px 0;
+}

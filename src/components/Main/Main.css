@@ -12,31 +12,177 @@
     width: 552px;
 }
 
-.section_orpheus{
+.section_orpheus {
     display: flex;
     justify-content: space-around;
     height: 100%;
     align-items: center;
 }
-.orpheus_name{
+
+.orpheus_name {
     font-size: 50px;
     padding: 10px 0;
 }
-.orpheus_definition{
+
+.orpheus_definition {
     line-height: 2.5rem;
     font-size: larger;
 }
 
 
+/* slider */
+.slider_text{
+line-height: 1.5rem;
+}
+.slider_title {
+    font-size: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
+.slider_img {
+    width: 300px;
+    height: 300px;
 
+}
 
+/* .slider_text{
+    width: 60%;
+} */
+.aristotel_img {
+    padding-top: 20px;
+    background: url(/src/img/aristot.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
+.piron_img {
+    background: url(/src/img/piron_skep.png);
+    background: url(/src/img/piron_skep.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.platon_img {
+    background: url(/src/img/PLATON.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.epicur_img {
+    background: url(/src/img/Epicur.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.zenon_ing {
+    background: url(/src/img/zenon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.aristotel {
+    display: flex;
+    justify-content: space-between;
+}
+.slick-slider{
+    padding: 60px 0;
+}
+.slick-prev {
+    left: -50px;
+}
+.jcsb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.slider_text_box {
+    width: 50%;
+    margin-left: 50px;
+}
+.slider_button{
+    padding: 20px 30px;
+    border: rgb(255, 229, 161) 1px  solid;
+    border-radius: 5px; 
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 20px;
+    border: linear-gradient(90deg, rgba(255, 229, 161, 1) 0%, rgba(191, 132, 26, 1) 52%, rgba(255, 205, 116, 1) 100%);
+}
 /* platon */
-.platons_school_img{
-    width: 100px;
-    height: 100px;
+.platons_school_img {
+    width: 423px;
+    height: 272px;
     background: url(/src/img/platon_body.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+/* .platon_text_def{
+    width: 50%;
+
+} */
+.platon_text_title {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.platon_school {
+    display: flex;
+    justify-content: space-between;
+
+}
+.platon_school{
+    background-color: #0e0e0e; 
+
+}
+.platon_button {
+    border:  solid 6px black; 
+    padding: 15px 30px;
+    background: rgb(255, 229, 161);
+    background: linear-gradient(90deg, rgba(255, 229, 161, 1) 0%, rgba(191, 132, 26, 1) 52%, rgba(255, 205, 116, 1) 100%);
+    font-weight: 500;
+    border-radius: 8px;
+    /* border: none; */
+}
+
+.palton_text_box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.platon_text_def {
+    line-height: 1.6rem;
+    font-size: larger;
+}
+
+.platon_button_father {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 0 0;
+}
+.platon_main{
+    background: url(/src/img/platon_body.png);
+    width: 423px;
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.stoic_school{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    /* background-color: white; */
+    /* width: 1000%; */
+}
+Link{
+    text-decoration: none;
+  }

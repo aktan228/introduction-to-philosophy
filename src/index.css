@@ -34,11 +34,61 @@ code {
 
 
 .gold {
-  color: rgb(255, 207, 80);
-  color: linear-gradient(90deg, rgba(255, 207, 80, 1) 0%, rgba(128, 88, 17, 1) 52%, rgba(255, 207, 80, 1) 100%);
+  /* background: rgb(255, 207, 80);
+  background: linear-gradient(90deg, rgba(255, 207, 80, 1) 0%, rgba(128, 88, 17, 1) 52%, rgba(255, 207, 80, 1) 100%); */
+  background: rgb(255, 229, 161);
+  background: linear-gradient(90deg, rgba(255, 229, 161, 1) 0%, rgba(191, 132, 26, 1) 52%, rgba(255, 205, 116, 1) 100%);
+  -webkit-background-clip: text;
+  /* Используем фон только для текста */
+  -webkit-text-fill-color: transparent;
+  /* Делаем текст прозрачным */
 }
 
+section {
+  padding: 20px 0;
+}
+.link{
+  color: white;
+  text-decoration: none;
+}
+.link1{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.italic{
+  font-style: italic;
+}
 /* p:hover{
   color: rgb(255, 207, 80);
   
 } */
+ .quote_img1{
+  background: url(/src/img/1-removebg-preview.png);
+ }
+ .quote{
+  -webkit-box-shadow: 2px 2px 121px 42px rgba(0,0,0,0.71);
+-moz-box-shadow: 2px 2px 121px 42px rgba(0,0,0,0.71);
+box-shadow: 2px 2px 121px 42px rgba(0,0,0,0.71);
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+ }
+ .quote_text{
+  font-style: italic
+ }
+ .main_quotes{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-direction: column;
+   align-items: center;
+}
+
+.main_quotes1{
+ display: flex;
+
+ 
+  align-items: center;
+  gap: 50px;
+}

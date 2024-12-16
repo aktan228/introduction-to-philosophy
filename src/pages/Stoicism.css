@@ -1,0 +1,26 @@
+.stoic_main{
+    width: 400px;
+    height: 200px;
+    background: url(/src/img/stoic_pag.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.platon_school{
+    align-items: center;
+}
+.stoic_his_img{
+    background: url(/src/img/stoic_his.png);
+    height: 280px;
+    width: 474px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.main_history{
+    align-items: center;
+}
+.quote_img2{
+    background: url(/src/img/stoooooo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

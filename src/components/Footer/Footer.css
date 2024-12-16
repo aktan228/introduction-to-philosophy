@@ -10,10 +10,43 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    /* flex-direction: column; */
+    padding-bottom: 50px;
 }
 
 .footer_box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 50px;
+}
+.society1{
+    background: url(/src/img/Medium\ New.svg);
+}
+.society2{
+    background: url(/src/img/Medium\ New\ \(1\).svg);
+}
+.society3{
+    background: url(/src/img/Medium\ New\ \(2\).svg);
+}
+.society4{
+    background: url(/src/img/Medium\ New\ \(3\).svg);
+}
+.society5{
+    background: url(/src/img/Medium\ New\ \(4\).svg);
+}
+.society{
+    width: 50px;
+    height: 50px;
+}
+.footer_society{
+    display: flex;
+    gap: 20px;
+}
+.dwadawadwdwa{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 60px;
 }
