@@ -59,8 +59,11 @@
 }
 
 .piron_img {
-    background: url(/src/img/piron_skep.png);
-    background: url(/src/img/piron_skep.png);
+    /* background: url(/src/img/piron_skep.png);
+    background: url(/src/img/piron_skep.png); */
+    background-repeat: no-repeat;
+background: url(/src/img/adwdawadwdawadwadewdaesdse.png);
+    background-size: contain;
     background-repeat: no-repeat;
     background-size: contain;
 }

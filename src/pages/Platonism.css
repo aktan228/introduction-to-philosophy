@@ -26,8 +26,9 @@ background-repeat: no-repeat;
 }
 
 .history_img{
-    background: url(https://files.oaiusercontent.com/file-DGTrAQxWnybz1DrJVPeCCw?se=2024-12-15T17%3A28%3A37Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D0943b028-8f0d-4908-b6bb-e76c10a78468.webp&sig=SKj84nIP%2BCMKrTp5vpAZrGNlE8kkJzZ9iv3G54M7pr0%3D);
-    width: 300px;
+    /* background: url(https://files.oaiusercontent.com/file-DGTrAQxWnybz1DrJVPeCCw?se=2024-12-15T17%3A28%3A37Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D0943b028-8f0d-4908-b6bb-e76c10a78468.webp&sig=SKj84nIP%2BCMKrTp5vpAZrGNlE8kkJzZ9iv3G54M7pr0%3D); */
+    width: 440px;
+    background: url(/src/img/knowledge-e1542040512810.jpg);
     height: 300px;
     background-size: contain;
     background-repeat: no-repeat;
